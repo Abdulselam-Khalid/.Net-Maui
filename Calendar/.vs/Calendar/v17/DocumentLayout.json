@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\Calendar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A93584D2-C50F-4E3A-A0B1-B581E1E37EF6}|Calendar\\Calendar.csproj|c:\\users\\abdus\\desktop\\forkedjavafx\\.net-maui\\calendar\\calendar\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A93584D2-C50F-4E3A-A0B1-B581E1E37EF6}|Calendar\\Calendar.csproj|solutionrelative:calendar\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93584D2-C50F-4E3A-A0B1-B581E1E37EF6}|Calendar\\Calendar.csproj|c:\\users\\abdus\\desktop\\forkedjavafx\\.net-maui\\calendar\\calendar\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A93584D2-C50F-4E3A-A0B1-B581E1E37EF6}|Calendar\\Calendar.csproj|solutionrelative:calendar\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93584D2-C50F-4E3A-A0B1-B581E1E37EF6}|Calendar\\Calendar.csproj|c:\\users\\abdus\\desktop\\forkedjavafx\\.net-maui\\calendar\\calendar\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A93584D2-C50F-4E3A-A0B1-B581E1E37EF6}|Calendar\\Calendar.csproj|solutionrelative:calendar\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\Calendar\\Calendar\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Calendar\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\Calendar\\Calendar\\AppShell.xaml",
+              "RelativeToolTip": "Calendar\\AppShell.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T13:34:31.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\Calendar\\Calendar\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Calendar\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\Calendar\\Calendar\\MainPage.xaml.cs",
+              "RelativeToolTip": "Calendar\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAASwC0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T12:27:41.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\Calendar\\Calendar\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Calendar\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\Calendar\\Calendar\\MainPage.xaml",
+              "RelativeToolTip": "Calendar\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T11:03:31.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

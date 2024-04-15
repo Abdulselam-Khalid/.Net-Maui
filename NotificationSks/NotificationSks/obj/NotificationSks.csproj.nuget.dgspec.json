@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdus\\source\\repos\\NotificationPage SKS\\NotificationSks\\NotificationSks\\NotificationSks.csproj": {}
+    "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\NotificationSks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdus\\source\\repos\\NotificationPage SKS\\NotificationSks\\NotificationSks\\NotificationSks.csproj": {
+    "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\NotificationSks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdus\\source\\repos\\NotificationPage SKS\\NotificationSks\\NotificationSks\\NotificationSks.csproj",
+        "projectUniqueName": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\NotificationSks.csproj",
         "projectName": "NotificationSks",
-        "projectPath": "C:\\Users\\abdus\\source\\repos\\NotificationPage SKS\\NotificationSks\\NotificationSks\\NotificationSks.csproj",
+        "projectPath": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\NotificationSks.csproj",
         "packagesPath": "C:\\Users\\abdus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdus\\source\\repos\\NotificationPage SKS\\NotificationSks\\NotificationSks\\obj\\",
+        "outputPath": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

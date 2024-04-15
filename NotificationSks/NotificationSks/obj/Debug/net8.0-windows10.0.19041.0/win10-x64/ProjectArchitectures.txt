@@ -1,1 +1,1 @@
-C:\Users\abdus\source\repos\NotificationSks\NotificationSks\NotificationSks.csproj;x64
+C:\Users\abdus\Desktop\ForkedJavaFx\.Net-Maui\NotificationSks\NotificationSks\NotificationSks.csproj;x64

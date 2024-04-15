@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SksClubPage.MainPage"
+             Background="AliceBlue"
+             Title="">
+    <ScrollView>
+        <VerticalStackLayout
+      Padding="30,0"
+      Spacing="25">
+            <Frame BorderColor="White" x:Name="myFrame" WidthRequest="340" HeightRequest="110" Padding="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="CHILD DEVELOPMENT CLUB" FontFamily="OpenSans-SemiBold" FontSize="18" VerticalOptions="Center" Grid.ColumnSpan="2"/>
+
+                    <Button Text=".." Clicked="OnButtonClicked1" VerticalOptions="Center" FontAttributes="Bold" Grid.Column="2" HeightRequest="20" WidthRequest="22"/>
+
+                    <Image Source="xicon.png" VerticalOptions="Center" Grid.Column="2" HeightRequest="30" WidthRequest="30"/>
+
+                    <Button Text="Delete Club" Clicked="OnDeleteButtonClicked" Grid.Column="0" Grid.Row="1" HeightRequest="40" Background="#01B399" />
+                </Grid>
+            </Frame>
+
+            <Grid>
+                <Image x:Name="logo1" Source="first.png" WidthRequest="300" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" IsVisible="True"/>
+                <Image x:Name="logo2" Source="second.png" WidthRequest="350" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" IsVisible="False"/>
+            </Grid>
+
+            <Frame WidthRequest="340" HeightRequest="55" Padding="12,16,16,16">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Email: cocukgelisimikulubu@st.uskudar.edu.tr" FontSize="14" VerticalOptions="Center" Grid.Column="1"/>
+                </Grid>
+            </Frame>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="CHILD DEVELOPMENT CLUB ABOUT :" FontFamily="OpenSans-Bold" FontAttributes="Bold" FontSize="18" VerticalOptions="Center" Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label FontFamily="OpenSans-SemiBold" FontSize="14" VerticalOptions="Center" Grid.Column="1" Text="In order to protect and strengthen the spiritual values of the club members with its innovative, rational and responsible approach, by adhering to the mission and vision of Uskudar University, the students of child development as well as psychology-sociology-social services department aims to organize various activities in order to make necessary initiatives for the promotion of the club outside Uskudar University, where students who are studying can participate. The club's activities consist of four separate conferences and seminars, interviews, social responsibility projects and a children's festival to be held by the students" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

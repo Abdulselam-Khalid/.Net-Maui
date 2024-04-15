@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cal="clr-namespace:Plugin.Maui.Calendar.Controls;assembly=Plugin.Maui.Calendar"
+             x:Class="Calendar.MainPage"
+             Background="AliceBlue"
+             Title="">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Text="Üsküdar University" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" Margin="0,10,0,0" TextColor="Black" FontAttributes="Bold" Grid.ColumnSpan="2">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Üsküdar" TextColor="Cyan" FontFamily="OpenSans-Bold" />
+                        <Span Text=" University" TextColor="Black" FontFamily="OpenSans-Bold" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Button Grid.Column="1"  WidthRequest="25" HeightRequest="25" Margin="0,0,0,0" Clicked="Button_Clicked" Background="AliceBlue"/>
+            <Image Source="back.png" Grid.Column="1" HeightRequest="20" WidthRequest="20" Aspect="AspectFill"/>
+        </Grid>
+        <cal:Calendar Events="{Binding Events}" EventsScrollViewVisible="True" SelectedDayBackgroundColor="#F0534F" BackgroundColor="White" WidthRequest="320" HeightRequest="600" Margin="0,40,0,0">
+            <cal:Calendar.EventTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding ImagePath}" HeightRequest="50" WidthRequest="50" Aspect="AspectFill" Margin="10"/>
+                        <StackLayout Grid.Column="1">
+                            <Label Text="{Binding Name}" FontFamily="OpenSans-Bold" FontSize="20" FontAttributes="Bold"/>
+                            <Label Text="{Binding Description}" FontSize="16"/>
+                        </StackLayout>
+                    </Grid>
+                </DataTemplate>
+            </cal:Calendar.EventTemplate>
+        </cal:Calendar>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginAs.MainPage"
+             Title="">
+
+    <VerticalStackLayout
+     Padding="85,0"
+     Spacing="25">
+        <Image
+         Source="logo1.png"
+         Aspect="AspectFill"
+         HeightRequest="120"
+         Margin="0,20,0,0"/>
+
+        <Label
+          Text="Login As"
+          Style="{StaticResource Headline}"
+          TextColor="#01B399"
+          FontAttributes="Bold"
+          FontFamily="SFNSText-Heavy"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Button
+             x:Name="StudentBtn"
+             Text="STUDENT"
+             TextColor="White"
+             Style="{StaticResource BoldButtonStyle}"
+             HorizontalOptions="Fill"
+             Clicked="OnStudentClicked"
+             CornerRadius="20"
+             FontFamily="SFNSText-Heavy"
+             Margin="0,40,0,0"
+             Background="#01B399"
+             BorderColor="Black" BorderWidth="1">
+            </Button>
+            <Image
+             Source="arrow.png"
+             VerticalOptions="Center"
+             HorizontalOptions="End"
+             HeightRequest="20"
+             Margin="0,40,10,0"
+             Grid.Row="0"
+             Grid.Column="1" />
+
+            <Button
+             x:Name="ClubManagerBtn"
+             Text="CLUB MANAGER"
+             TextColor="White"
+             Style="{StaticResource BoldButtonStyle}"
+             HorizontalOptions="Fill"
+             Clicked="OnClubManagerClicked"
+             CornerRadius="20"
+             Grid.Row="1"
+             FontFamily="SFNSText-Heavy"
+             Margin="0,40,0,0"
+             Background="#E2C83E"
+             BorderColor="Black" BorderWidth="1">
+            </Button>
+            <Image
+             Source="arrow.png"
+             VerticalOptions="Center"
+             HorizontalOptions="End"
+             HeightRequest="20"
+             Grid.Row="1"
+             Grid.Column="1"
+             Margin="0,40,10,0" />
+
+            <Button
+             x:Name="SksAdminBtn"
+             Text="SKS ADMIN"
+             TextColor="White"
+             Style="{StaticResource BoldButtonStyle}"
+             HorizontalOptions="Fill"
+             Clicked="OnSksAdminClicked"
+             CornerRadius="20"
+             Grid.Row="2"
+             FontFamily="SFNSText-Heavy"
+             Margin="0,40,0,0"
+             Background="#63C6DB"
+             BorderColor="Black" BorderWidth="1">
+            </Button>
+            <Image
+             Source="arrow.png"
+             VerticalOptions="Center"
+             HorizontalOptions="End"
+             HeightRequest="20"
+             Grid.Row="2"
+             Grid.Column="1"
+             Margin="0,40,10,0" />
+        </Grid>
+        
+            <Image Source="photo.png"/>
+        
+    </VerticalStackLayout>
+
+</ContentPage>

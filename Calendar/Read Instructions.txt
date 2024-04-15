@@ -1,0 +1,5 @@
+The calendar used here is from a plugin available on github: https://github.com/yurkinh/Plugin.Maui.Calendar
+To install the Plugin, go to the Solution explorer in Maui, right click on the project and chooose Manage NuGet packages.
+In the search bar type in Plugin.Maui.Calendar and install the first one which is my Yurkinh.
+After the installation is done go to your MainPage.xaml and add the following:  
+xmlns:cal="clr-namespace:Plugin.Maui.Calendar.Controls;assembly=Plugin.Maui.Calendar"
