@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\AccountPage\\Account\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0341E722-DE98-4220-9C2D-D4DD6BADC583}|Account.Maui\\Account.Maui.csproj|c:\\users\\abdus\\desktop\\github\\.net-maui\\accountpage\\account\\account.maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0341E722-DE98-4220-9C2D-D4DD6BADC583}|Account.Maui\\Account.Maui.csproj|solutionrelative:account.maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Account.Maui\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\MainPage.xaml",
+              "RelativeToolTip": "Account.Maui\\MainPage.xaml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-17T02:00:59.704Z",
+              "EditorCaption": ""
             }
           ]
         }

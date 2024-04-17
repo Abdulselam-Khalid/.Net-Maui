@@ -22,8 +22,8 @@
             </Label.FormattedText>
         </Label>
         
-        <Frame Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="100" HeightRequest="100" CornerRadius="50" Margin="0,15,0,0">
-            <Image Source="profile.png" WidthRequest="100" HeightRequest="100"  />
+        <Frame Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="100" HeightRequest="100" CornerRadius="50" IsClippedToBounds="True" Margin="0,15,0,0">
+            <Image Source="monkey.png" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
         </Frame>
 
         <Grid Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Start"  Margin="0,150,0,0" Background="White" RowSpacing="30" Padding="10" ColumnSpacing="40">
@@ -46,7 +46,7 @@
             <Label Text="Personal Info" FontSize="16" FontAttributes="Bold" FontFamily="OpenSans-Bold" Grid.ColumnSpan="2" HorizontalOptions="Center" TextColor="Black" Margin="0,0,100,0"/>
 
             <Label Text="Your Name" FontSize="12" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" TextColor="Black" FontFamily="OpenSans-SemiBold"/>
-            <Label Text="John Doe" FontSize="12" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End" TextColor="Black" FontFamily="OpenSans-Regular"/>
+            <Label Text="Monkey" FontSize="12" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End" TextColor="Black" FontFamily="OpenSans-Regular"/>
 
             <Label Text="Date of Birth" FontSize="12" Grid.Row="2" Grid.Column="0" VerticalOptions="Center" TextColor="Black" FontFamily="OpenSans-SemiBold"/>
             <Label Text="January 1, 1990" FontSize="12" Grid.Row="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End" TextColor="Black" FontFamily="OpenSans-Regular"/>
@@ -54,7 +54,7 @@
             <Label Text="Contact Info" FontSize="16" FontAttributes="Bold" FontFamily="OpenSans-Bold" Grid.Row="3" Grid.ColumnSpan="2" HorizontalOptions="Center" TextColor="Black" Margin="0,0,100,0"/>
 
             <Label Text="Phone Number" FontSize="12" Grid.Row="4" Grid.Column="0" VerticalOptions="Center" TextColor="Black" FontFamily="OpenSans-SemiBold"/>
-            <Entry x:Name="phoneNumberLabel" Placeholder="(123) 456 7890" FontFamily="sfd" FontSize="12" Grid.Row="4" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End" PlaceholderColor="LightGray" HeightRequest="40" IsEnabled="False" Focused="PhoneNumberLabel_Focused" Unfocused="PhoneNumberLabel_Unfocused"/>
+            <Entry x:Name="phoneNumberLabel" Placeholder="(123) 456 7890" FontFamily="sfd" FontSize="12" Grid.Row="4" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="End" PlaceholderColor="Black" HeightRequest="40" IsEnabled="False" Focused="PhoneNumberLabel_Focused" Unfocused="PhoneNumberLabel_Unfocused"/>
 
             <Button x:Name="changeButton" Text="Change" TextColor="White" BackgroundColor="#841FFD" FontSize="14" FontAttributes="Bold" FontFamily="OpenSans-Bold" Grid.Row="5" Grid.Column="0" HorizontalOptions="Center" Padding="5,0" WidthRequest="75" HeightRequest="25" CornerRadius="25" Clicked="ChangeButton_Clicked" />
 

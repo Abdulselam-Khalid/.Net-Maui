@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj": {}
+    "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj": {
+    "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj",
+        "projectUniqueName": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj",
         "projectName": "Account.Maui",
-        "projectPath": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj",
+        "projectPath": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\Account.Maui.csproj",
         "packagesPath": "C:\\Users\\abdus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\obj\\",
+        "outputPath": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\AccountPage\\Account\\Account.Maui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

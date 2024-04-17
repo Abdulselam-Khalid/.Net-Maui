@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\",
+  "WorkspaceRootPath": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\NotificationSks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|c:\\users\\abdus\\desktop\\forkedjavafx\\.net-maui\\notificationsks\\notificationsks\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|c:\\users\\abdus\\desktop\\github\\.net-maui\\notificationsks\\notificationsks\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|solutionrelative:notificationsks\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|c:\\users\\abdus\\desktop\\forkedjavafx\\.net-maui\\notificationsks\\notificationsks\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|c:\\users\\abdus\\desktop\\github\\.net-maui\\notificationsks\\notificationsks\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|solutionrelative:notificationsks\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|c:\\users\\abdus\\desktop\\forkedjavafx\\.net-maui\\notificationsks\\notificationsks\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|c:\\users\\abdus\\desktop\\github\\.net-maui\\notificationsks\\notificationsks\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{54CC147A-870E-48A2-9779-613C90C0F2B0}|NotificationSks\\NotificationSks.csproj|solutionrelative:notificationsks\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml",
               "RelativeDocumentMoniker": "NotificationSks\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml",
               "RelativeToolTip": "NotificationSks\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAIwHEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-23T12:59:41.278Z",
               "IsPinned": true,
@@ -54,9 +54,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "NotificationSks\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\NotificationSks\\NotificationSks\\MainPage.xaml.cs",
               "RelativeToolTip": "NotificationSks\\MainPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,9 +66,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\NotificationSks\\NotificationSks\\AppShell.xaml",
               "RelativeDocumentMoniker": "NotificationSks\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\abdus\\Desktop\\ForkedJavaFx\\.Net-Maui\\NotificationSks\\NotificationSks\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\abdus\\Desktop\\Github\\.Net-Maui\\NotificationSks\\NotificationSks\\AppShell.xaml",
               "RelativeToolTip": "NotificationSks\\AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
