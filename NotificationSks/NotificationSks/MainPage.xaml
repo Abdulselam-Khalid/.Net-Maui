@@ -1,17 +1,21 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NotificationSks.MainPage"
+             xmlns:local="clr-namespace:NotificationSks"
              Background="AliceBlue"
              Title="Notifications">
 
-    
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel />
+    </ContentPage.BindingContext>
+
     
     <ScrollView>
-        <StackLayout>
+        <StackLayout x:Name="NotificationsStack">
             <Frame Padding="10" Margin="10" BackgroundColor="White" CornerRadius="10" HasShadow="True">
                 <StackLayout>
-                    <Label Text="New Events Request" FontFamily="OpenSans-SemiBold" />
-                    <Label Text="Club Name" FontSize="18" FontFamily="OpenSans-Bold" Margin="0,10,0,5" />
+                    <Label Text="{Binding Event1.RequestType}" FontFamily="OpenSans-SemiBold" />
+                    <Label Text="{Binding Event1.ClubName}" FontSize="18" FontFamily="OpenSans-Bold" Margin="0,10,0,5" />
 
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -23,10 +27,10 @@
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
-                        <Image Source="second.png" WidthRequest="100" Grid.Column="0" HeightRequest="100" Aspect="AspectFill" />
-                        <Label Text="Event Name" Grid.Column="1" FontSize="20" FontFamily="OpenSans-Bold"  HorizontalOptions="StartAndExpand" Margin="10,0,0,0" />
-                        <Label Text="Event Date" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,0,0,0" />
-                        <Label Text="Event Location" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,40,0,0"/>
+                        <Image Source="{Binding Event1.ImageSource}" WidthRequest="100" Grid.Column="0" HeightRequest="100" Aspect="AspectFill" />
+                        <Label Text="{Binding Event1.EventName}" Grid.Column="1" FontSize="20" FontFamily="OpenSans-Bold"  HorizontalOptions="StartAndExpand" Margin="10,0,0,0" />
+                        <Label Text="{Binding Event1.EventDate}" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,0,0,0" />
+                        <Label Text="{Binding Event1.EventLocation}" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,40,0,0"/>
                     </Grid>
 
                     <Grid ColumnSpacing="30">
@@ -59,8 +63,8 @@
                 
             <Frame Padding="10" Margin="10" BackgroundColor="White" CornerRadius="10" HasShadow="True">
                 <StackLayout>
-                    <Label Text="Requesting Edits" FontFamily="OpenSans-SemiBold"/>
-                    <Label Text="Club Name" FontSize="18" FontFamily="OpenSans-Bold" Margin="0,10,0,5" />
+                    <Label Text="{Binding Event2.RequestType}" FontFamily="OpenSans-SemiBold"/>
+                    <Label Text="{Binding Event2.ClubName}" FontSize="18" FontFamily="OpenSans-Bold" Margin="0,10,0,5" />
 
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -72,10 +76,10 @@
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
-                        <Image Source="second.png" WidthRequest="100" Grid.Column="0" HeightRequest="100" Aspect="AspectFill" />
-                        <Label Text="Event Name" Grid.Column="1" FontSize="20" FontFamily="OpenSans-Bold"  HorizontalOptions="StartAndExpand" Margin="10,0,0,0" />
-                        <Label Text="Event Date" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,0,0,0" />
-                        <Label Text="Event Location" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,40,0,0"/>
+                        <Image Source="{Binding Event2.ImageSource}" WidthRequest="100" Grid.Column="0" HeightRequest="100" Aspect="AspectFill" />
+                        <Label Text="{Binding Event2.EventName}" Grid.Column="1" FontSize="20" FontFamily="OpenSans-Bold"  HorizontalOptions="StartAndExpand" Margin="10,0,0,0" />
+                        <Label Text="{Binding Event2.EventDate}" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,0,0,0" />
+                        <Label Text="{Binding Event2.EventLocation}" Grid.Column="1" FontSize="16" VerticalOptions="Center" Margin="10,40,0,0"/>
                     </Grid>
 
                     <Grid ColumnSpacing="30">

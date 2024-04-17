@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NotificationSks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a747e4d53b4aa48cb71efef2c860f996369e072e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d3c76cf2cf81073885ce6cbd0e0e5c607d4abbea")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotificationSks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotificationSks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
